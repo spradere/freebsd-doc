@@ -32,6 +32,7 @@ fi
 
 asciidoctor-pdf \
   -a reproducible \
+  -a doctype=book \
   -a pdf-theme="$THEME_FILE" \
   -a source-highlighter=rouge \
   -D "$OUTPUT_DIR" \

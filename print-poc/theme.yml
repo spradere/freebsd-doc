@@ -11,12 +11,15 @@ base:
 heading:
   font-family: Times-Roman
   font-style: bold
-  orphan-content-limit: 2
+  orphan-content-limit: 3
   min-height-after: 24
+  margin-top: 14
+  margin-bottom: 6 
 paragraph:
     text-indent: 1.2em
-    margin-bottom: 0
+    margin-bottom: 4
 code:
+  break-inside: avoid 
   font-family: Noto Serif
   font-size: 9
 literal:
@@ -25,6 +28,8 @@ literal:
   line-height: 1.2
 prose:
   text-align: left
+  orphans: 3
+  widows: 3
 block:
   margin-top: 4
   margin-bottom: 5
