@@ -23,3 +23,61 @@ git push origin main
 
 git switch print-test
 git rebase main
+
+# gon on ...
+
+pkg install devel/py-pip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

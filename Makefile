@@ -22,4 +22,8 @@ SUBDIR_PARALLEL=	yes
 run:
 	@(echo The 'run' target is only valid in a subdirectory; exit 1)
 
+print-poc:
+	@./print-poc/build-print-poc.sh
+.PHONY:print-poc
+
 .include <bsd.subdir.mk>
