@@ -1,0 +1,25 @@
+# initial setup
+
+fork freebsd/freebsd-doc:main in github/spradere
+git clone git@github.com:spradere/freebsd-doc.git
+pkg install docproj
+
+git remote add upstream https://git.FreeBSD.org/doc.git
+git fetch upstream
+git fetch --tags upstream
+
+git switch -c print-test
+git push -u origin print-test
+git remote show origin
+
+# keep local repo up to date with remote 
+
+git switch main
+git fetch upstream
+git merge --ff-only upstream/main
+git push origin main
+
+# work on local repo
+
+git switch print-test
+git rebase main
