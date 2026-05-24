@@ -4,7 +4,6 @@ This directory contains an **isolated print experiment** that does not modify up
 
 ## What this PoC does
 
-- Clones `freebsd/freebsd-doc` into `print-poc/.work/freebsd-doc`.
 - Builds `documentation/content/en/books/arch-handbook/book.adoc` to PDF using AsciiDoctor PDF.
 - Keeps only the first 30 pages for rapid print-layout validation.
 
@@ -12,7 +11,6 @@ Attribution is preserved in the generated PDF because it is rendered from the or
 
 ## Required tools
 
-- `git`
 - `ruby` + `gem`
 - `python3` + `pip`
 
@@ -27,12 +25,6 @@ From repository root:
 
 ```bash
 make print-poc
-```
-
-or directly:
-
-```bash
-./build-print-poc.sh
 ```
 
 ## Output
